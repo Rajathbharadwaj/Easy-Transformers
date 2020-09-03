@@ -10,6 +10,25 @@ easytransformers.py -> Contains the implementation of 🤗 Transformers, does al
     from easytransformers import  EasyTransformers
     #instantiate EasyTransformers
     nlp = EasyTransformers(taskType, text, context, questions, sequence, seed, leng, nerSequence, sentence, translate)
+-----------------
+
+## Demo
+
+	This demo shows the usage for Extractive Question Answering (EQA)
+
+    context =  "🤗 Transformers (formerly known as pytorch-transformers and pytorch-pretrained-bert) provides general-purpose architectures (BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet…) for Natural Language Understanding (NLU) and Natural Language Generation (NLG) with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow 2.0 and PyTorch."
+    questions = ["How many pretrained models are available in 🤗 Transformers?","What does 🤗 Transformers provide?",
+    "🤗 Transformers provides interoperability between which frameworks?"]
+    
+    sc = EasyTransformers(taskType="EQA", questions=questions, context=context)
+
+## Output
+	[INFO....] Extractive Question Answering 
+	[INFO....] Downloading bert for you [INFO....] 
+	Downloaded bert for you 
+	Answers 
+	{'How many pretrained models are available in 🤗 Transformers?': 'over 32 +', 'What does 🤗 Transformers provide?': 'general - purpose architectures', '🤗 Transformers provides interoperability between which frameworks?': 'tensorflow 2 . 0 and pytorch'}
+
 
 | Args | Used in |
 |--|--|
