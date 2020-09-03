@@ -3,7 +3,8 @@
 
 # Files
 
-easytransformers.py -> Contains the implementation of 🤗 Transformers, does all the heavy lifting so you  don't have to write much code.
+easytransformers.py -> Contains the implementation of 🤗 Transformers, does all the heavy lifting so you  don't have to write much code. 
+This uses PyTorch, so PyTorch is needed.
 
 
 ## Usage  
