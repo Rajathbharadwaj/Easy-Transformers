@@ -6,11 +6,40 @@
 easytransformers.py -> Contains the implementation of 🤗 Transformers, does all the heavy lifting so you  don't have to write much code. 
 This uses PyTorch, so PyTorch is needed.
 
+# What Easy Transformers can do?
+
+Basically lets you do NLP, in essentially a single line of code. It used 🤗 Transformers.
+Supported as of now:
+    "Sequence Classification" : "SC", 
+    "Extractive Question Answering" : "EQA",
+    "Masked Language Modeling" : "MLM",
+    "Text Generation" : "TG",
+    "Summarization" : "SUM"
+
+# What is: 
+
+## Sequence Classification (SC)
+    Sequence classification is the task of classifying sequences according to a given number of classes.
+
+## Extractive Question Answering (EQA)
+    Extractive Question Answering is the task of extracting an answer from a text given a question.
+
+## Masked Language Modeling (MLM)
+    Masked language modeling is the task of masking tokens in a sequence with a masking token, and prompting the model to fill that mask with an appropriate token.
+
+## Text Generation (TG)
+    In text generation (a.k.a open-ended text generation) the goal is to create a coherent portion of text that is a continuation from the given context.
+
+## Named Entity Recognition (NER)
+    Named Entity Recognition (NER) is the task of classifying tokens according to a class, for example, identifying a token as a person, an organisation or a location.
+
+## Summarization (SUM)
+    Summarization is the task of summarizing a document or an article into a shorter text.
 
 ## Usage  
     from easytransformers import  EasyTransformers
     #instantiate EasyTransformers
-    nlp = EasyTransformers(taskType, text, context, questions, sequence, seed, leng, nerSequence, sentence, translate)
+    nlp = EasyTransformers(taskType, text, context, questions, sequence, seed, leng, nerSequence, sentence)
 -----------------
 
 ## Demo
