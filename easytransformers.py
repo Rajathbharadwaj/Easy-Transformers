@@ -13,7 +13,7 @@ class EasyTransformers():
         "Masked Language Modeling":"MLM",
         "Text Generation":"TG",
         "Summarization":"SUM",
-        "Translation":"TLR"}
+        }
 
         
         
