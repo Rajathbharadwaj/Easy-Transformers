@@ -25,8 +25,8 @@ This uses PyTorch, so PyTorch is needed.
 
 ## Output
 	[INFO....] Extractive Question Answering 
-	[INFO....] Downloading bert for you [INFO....] 
-	Downloaded bert for you 
+	[INFO....] Downloading bert for you 
+    [INFO....] Downloaded bert for you 
 	Answers 
 	{'How many pretrained models are available in 🤗 Transformers?': 'over 32 +', 'What does 🤗 Transformers provide?': 'general - purpose architectures', '🤗 Transformers provides interoperability between which frameworks?': 'tensorflow 2 . 0 and pytorch'}
 
