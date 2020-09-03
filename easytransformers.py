@@ -96,5 +96,5 @@ class RemixTransformers():
         return generated
 
 
-nlp = RemixTransformers(taskType="TG", seed="As far as I am concerned, I will", leng=50)
+
 
