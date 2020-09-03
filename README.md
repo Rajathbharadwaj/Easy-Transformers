@@ -6,6 +6,10 @@
 easytransformers.py -> Contains the implementation of 🤗 Transformers, does all the heavy lifting so you  don't have to write much code. 
 This uses PyTorch, so PyTorch is needed.
 
+## Torch and Transformers installation
+    pip install transformers[torch]
+
+
 # What Easy Transformers can do?
 
 
