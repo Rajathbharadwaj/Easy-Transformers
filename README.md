@@ -8,7 +8,7 @@ This uses PyTorch, so PyTorch is needed.
 
 # What Easy Transformers can do?
 
-<<<<<<< HEAD
+
 Basically lets you do NLP, in essentially a single line of code. It uses 🤗 Transformers. <br>
 Supported as of now: <br>
     "Sequence Classification" : "SC", <br> 
