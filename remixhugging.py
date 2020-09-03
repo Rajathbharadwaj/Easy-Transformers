@@ -6,20 +6,20 @@ class RemixTransformers():
     def __init__(self, taskType, text=None, questions=None, sequence=None, seed=None, leng=None):
 
         self.taskType = taskType
-        
-        if self.taskType == "Sequence Classification" or "SC":
+        print(self.taskType)
+        if self.taskType == "SC":
             self.text = text
             res = self.sequenceClassification(text)
             print(res)
 
-        elif self.taskType == "Extractive Question Answering" or "EQA":
+        elif self.taskType == "EQA":
             self.questions = questions
             # self.option = input("Multiple Questions or Single question? (Enter 1 for multiple, 2 for Single)") 
             self.context = input("Enter the context") 
             res = self.extractiveQuestionAnswering(self.context, self.questions)
             print(res)
 
-        elif self.taskType == "Masked Language Modeling" or "MLM":
+        elif self.taskType == "MLM":
             self.sequence = sequence
             res = self.maskedLanguageModeling()
             print(res)
@@ -27,7 +27,7 @@ class RemixTransformers():
         # elif self.taskType == "Causal Language Modeling" or "CLM":
         #     self.causalLanguageModeling()
 
-        elif self.taskType == "Text Generation" or "TG":
+        elif self.taskType == "TG":
             print("In TG block")
             self.seed = seed
             self.leng = leng
