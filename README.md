@@ -8,8 +8,8 @@ This uses PyTorch, so PyTorch is needed.
 
 # What Easy Transformers can do?
 
-Basically lets you do NLP, in essentially a single line of code. It used 🤗 Transformers.
-Supported as of now:
+Basically lets you do NLP, in essentially a single line of code. It used 🤗 Transformers. <br>
+Supported as of now: <br>
     "Sequence Classification" : "SC", 
     "Extractive Question Answering" : "EQA",
     "Masked Language Modeling" : "MLM",
